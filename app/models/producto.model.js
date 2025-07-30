@@ -17,5 +17,6 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.INT
         }
     });
+    
     return Producto
 };

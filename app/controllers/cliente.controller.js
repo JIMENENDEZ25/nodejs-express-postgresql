@@ -13,6 +13,7 @@ exports.create = (req, res) => {
         return;
     }
 
+    
     // Create a Client, definiendo una variable con la estructura del reques para luego solo ser enviada como parametro mas adelante. 
     const cliente = {
         nombre: req.body.nombre,

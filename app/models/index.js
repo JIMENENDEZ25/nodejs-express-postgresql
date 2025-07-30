@@ -4,6 +4,7 @@ const dbConfig = require("../config/db.config.js");
 const Sequelize = require("sequelize");
 // creamos una variable sequelize y la inicializamos como un Objeto Sequelize con la informacion de la BD 
 
+
 const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
   host: dbConfig.HOST,
   dialect: dbConfig.dialect,

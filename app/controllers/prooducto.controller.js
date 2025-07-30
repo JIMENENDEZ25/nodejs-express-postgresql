@@ -10,6 +10,7 @@ exports.create = (req, res) => {
         return;
     }
 
+
     const producto = {
         nombre: req.body.nombre,
         refrigerado: req.body.refrigerado ? req.body.refrigerado : false,
@@ -17,5 +18,6 @@ exports.create = (req, res) => {
         caducado: req.body.caducado ? req.body.caducado : false
 
     }
+
 }
 
